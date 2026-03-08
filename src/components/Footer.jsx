@@ -83,9 +83,7 @@ const Footer = () => {
 
           {/* Company */}
           <div>
-            <h4 className="font-bold text-gray-900 mb-4">
-              Company
-            </h4>
+            <h4 className="font-bold text-gray-900 mb-4">Company</h4>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
@@ -116,9 +114,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h4 className="font-bold text-gray-900 mb-4">
-              Contact
-            </h4>
+            <h4 className="font-bold text-gray-900 mb-4">Contact</h4>
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2 text-gray-600">
                 <FiMail size={16} />
@@ -132,10 +128,10 @@ const Footer = () => {
               <li className="flex items-center gap-2 text-gray-600">
                 <FiPhone size={16} />
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+299 5283 0510"
                   className="hover:text-yellow-500 transition"
                 >
-                  +1 (234) 567-890
+                  +299 5283 0510
                 </a>
               </li>
             </ul>
@@ -144,9 +140,7 @@ const Footer = () => {
 
         {/* Instagram Feed (Placeholder) */}
         <div className="mb-12">
-          <h4 className="font-bold text-gray-900 mb-6">
-            Follow Us
-          </h4>
+          <h4 className="font-bold text-gray-900 mb-6">Follow Us</h4>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
             {[1, 2, 3, 4, 5, 6].map((item) => (
               <div
